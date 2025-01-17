@@ -5,3 +5,7 @@ resource "aws_vpc" "workspace" {
     Name = "vpc-trainer"
   }
 }
+
+provider "aws" {
+   region = "us-west-1"
+}
